@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.hero_sec {
+  background: url(heroSectionBackground.png);
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+.navi{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  height: 60px;
+}
+.navi a{
+  text-decoration: none;
+  color: white;
+}
+.navi div{
+  display: flex;
+  gap: 20px;
+}
+.icon-link{
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.hero-sec-main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: calc(60vh-60px);
+}
+.hero-sec-logo{
+  width: 200px;
+  height: auto;
+}
+.hero-sec-description{
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+.hero-sec-input-container{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44%;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 10px;
+}
+.hero-sec-inp-location, .hero-sec-inp-dish{
+  padding: 5px;
+  border: none;
+  outline: none;
+
+}
+.hero-sec-inp-location{
+  width: 30%;
+  border-right: 2px solid#e0e0e0
+  ;
+}
+.hero-sec-inp-dish{
+  width: 70%
+}
