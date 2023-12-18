@@ -195,6 +195,7 @@
   background-color: rgb(300, 300, 300);
   width: 100%;
   padding: 3rem 6rem;
+  background-color: rgb(239, 219, 194);
 }
 .small-cont{
   width: 60%;
@@ -273,6 +274,7 @@
 }
 .play_app-store div{
   display: flex;
+
   gap: 1rem;
 }
 .play_app-store div img{
